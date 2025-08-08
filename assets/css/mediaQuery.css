@@ -1,0 +1,129 @@
+/*không đủ thời gian nên em mới chỉ responsive được cho thiết bị pc và smartphone(739px <) ạ*/
+
+/*smart phone*/
+@media (max-width: 46.1875em) {
+    /* .right {
+        display: flex;
+        justify-content: center;
+    } */
+
+    .top_header_email {
+        text-align: center;
+        max-height: 38px;
+    }
+    .header_logo > img {
+        width: 145px;
+        height: 52px;
+        margin-left: 16px;
+    }
+    .list_menu {
+        display: none;
+    }
+    .header_list_social {
+        display: flex;
+        justify-content: center;
+    }
+    #banner {
+        height: 280px;
+    }
+    .content_background_text > p {
+        font-size: 14px;
+    }
+    .banner_contents h2 {
+        font-size: 25px;
+    }
+    .content_blog_box {
+        height: 240px;
+    }
+    .video_information_item {
+        width: 97%;
+    }
+    .information_item > p {
+        margin-left: -4px;
+    }
+    .video_list_information {
+        margin-top: 10px;
+    }
+    .video_information_item > h3 {
+        margin-top: 4px;
+    }
+    .information_item_check {
+        padding: 4px 10px;
+    }
+    .container_box {
+        display: block;
+    }
+    .footer_col1_item {
+        margin: 0;
+    }
+    .footer_col1_item > h3 {
+        font-size: 15px;
+        text-align: start;
+    }
+    .footer_col1_item > h3 > i {
+        font-size: 20px;
+    }
+    .footer_col1 {
+        display: flex;
+        justify-content: center;
+    }
+    .footer_col3 {
+        display: flex;
+        justify-content: end;
+    }
+    .footer_col3_item {
+        margin: 0;
+        width: 89%;
+    }
+    #footer {
+        padding-top: 40px;
+    }
+
+    .footer_col1 {
+    }
+    .footer_col1_social {
+        margin-bottom: 20px;
+    }
+    .footer_col_text {
+        font-size: 12px !important;
+        width: 90%;
+    }
+    .footer_col1_heading {
+        font-size: 22px;
+    }
+    .footer_col2_heading {
+        font-size: 11px;
+    }
+    .footer_col3_office_text {
+        width: 85%;
+    }
+    .footer_col3_form {
+        width: 85%;
+    }
+    .footer_bottom {
+        margin-top: 50px;
+    }
+    .footer_center {
+        margin: 0;
+        margin-top: 30px;
+    }
+    .footer_center_col1 .footer_center_col1_heading {
+        font-size: 10px;
+    }
+    .footer_center_col1_heading2 {
+        font-size: 12px !important;
+    }
+    #sidebarImport {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 46.25em) {
+    .nav_menu_icon {
+        display: none;
+    }
+    .mobile_menu_list {
+        display: none;
+    }
+}

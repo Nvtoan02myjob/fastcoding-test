@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --bg-color-black: #071c1f;
+    --bg-color-null: #c4c4c4;
+    --color-black: #333;
+    --color-white: #fff;
+    --color-red: #ff5a3c;
+    --color-star: #ffc107;
+    --color-opacity1: #071c1f;
+    --color-opacity2: #c4c4c4;
+    --color-form: #f7f7fa;
+    --color-text: #39494c;
+}
+/*bỏ gạch chân a*/
+.red {
+    color: var(--color-red) !important;
+}
+.white {
+    color: var(--color-white) !important;
+}
+a {
+    text-decoration: none;
+}
+/*text-center*/
+.text_center {
+    text-align: center;
+}
+/*bg-red*/
+.bg-red {
+    background-color: var(--color-red) !important;
+}
+/*color-fff*/
+.text_white {
+    color: var(--color-white) !important;
+}
+/*border-none*/
+.border_none {
+    border: none !important;
+}
+/*bỏ list*/
+.listStyleNone {
+    list-style: none;
+}
+/*trái*/
+.left {
+    display: flex;
+    justify-content: start;
+}
+/*phải*/
+.right {
+    display: flex;
+    justify-content: end;
+}
+/*căn giữa*/
+.center {
+    display: flex;
+    justify-content: center;
+}
+/*căn giữ chiều dọc*/
+.centerY {
+    display: flex;
+    align-items: center;
+}
+/*start dọc*/
+.startY {
+    display: flex;
+    align-items: start;
+}
+/*end theo chiều dọc*/
+.EndY {
+    display: flex;
+    align-items: end;
+}
+/*dropdown*/
+.dropDown {
+    font-size: 10px;
+    font-weight: 550;
+}
+/*button*/
+.headerBuyNow > a {
+    background-color: var(--bg-orange);
+    min-width: 120px;
+    border-radius: 1.5px;
+    color: var(--color-white);
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 10px 9px;
+    text-align: center;
+}
+.headerBuyNow > a > i {
+    font-size: 10px;
+    font-weight: 550;
+}
+/*button-hover*/
+.btn_hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+/*vách ngăn*/
+.partition {
+    display: block;
+    width: 1px;
+    height: 10px;
+    background-color: var(--color-opacity2);
+    margin: 0 6px;
+}

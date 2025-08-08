@@ -1,0 +1,105 @@
+#footer {
+    margin-top: 90px;
+    padding-top: 54px;
+    height: 400px;
+    background-color: #171b2a;
+}
+.footer_top {
+    height: 240px;
+}
+
+.footer_center {
+    margin: 30px 254px 0;
+}
+
+.footer_col1_item {
+    width: 184px;
+    margin-right: 60px;
+}
+.footer_col1_item > h3 {
+    font-size: 20px;
+    text-align: start;
+}
+.footer_col1_item > h3 > i {
+    font-size: 30px;
+}
+.footer_col1_item > p {
+    color: var(--color-opacity2);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 22px 0;
+}
+.social_item {
+    display: inline-block;
+    padding: 5px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--color-red);
+    min-width: 31.8px;
+    min-width: 32px;
+    text-align: center;
+    margin-right: 6px;
+}
+.social_item > i {
+    font-size: 11px;
+}
+.footer_col2_item > a {
+    display: block;
+    color: var(--color-opacity2);
+    font-size: 12px;
+    margin: 15px 0;
+}
+.footer_col2_heading {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer_col3_office_text {
+    color: var(--color-opacity2);
+    font-size: 12px;
+    width: 251px;
+}
+.footer_col3_item {
+    margin-left: 20px;
+}
+.footer_col3_sendMail {
+    margin-top: 60px;
+}
+
+.footer_col3_form {
+    width: 252px;
+    background-color: none;
+}
+.footer_col3_form > input {
+    width: 100%;
+    outline: none;
+    background-color: #171b2a;
+    border: none;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid var(--color-opacity2);
+    color: var(--color-opacity2);
+    font-size: 11px;
+}
+
+.footer_center_col1 .footer_center_col1_heading {
+    padding-bottom: 10px;
+    color: #949fbe;
+    font-size: 13px;
+}
+.footer_center_col1 > .footer_center_col1_heading > div {
+    width: 106px;
+    height: 0.8px;
+    background-color: #949fbe;
+    margin-top: 6px;
+}
+.footer_center_col1_heading2 {
+    font-size: 15px !important;
+}
+.footer_center_col3 {
+    font-size: 10px;
+    color: #6d7690;
+}
+.footer_bottom {
+    background-color: var(--color-red);
+    height: 16px;
+    margin-top: 26px;
+}
